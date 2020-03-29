@@ -7,4 +7,10 @@ import (
 
 func main() {
 	fmt.Printf(covid.PrintPakistanCases())
+	fmt.Printf("\n")
+	fmt.Printf(covid.PrintSouthKoreaCases())
+	fmt.Printf("\n")
+	fmt.Printf(covid.PrintFranceCases())
+	fmt.Printf("\n")
+	fmt.Printf(covid.PrintMessage())
 }
