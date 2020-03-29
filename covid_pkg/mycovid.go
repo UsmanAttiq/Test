@@ -1,16 +1,16 @@
 package covid
 
-var PCases,SKCases,FCases int =1526, 9583, 37575
+var PCases,SKCases,FCases string ="1526", "9583", "37575"
 
-func PrintPakistanCases()int{
+func PrintPakistanCases()string{
 	return PCases
 }
 
-func PrintSouthKoreaCases()int{
+func PrintSouthKoreaCases()string{
 	return SKCases
 }
 
-func PrintFranceCases()int{
+func PrintFranceCases()string{
 	return FCases
 }
 
